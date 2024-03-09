@@ -1,0 +1,29 @@
+* { 
+    margin: 0; /*внешний отступ*/
+    padding: 0; /*внутренний отступ*/
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+/*Шапка*/
+header {
+    height: 60px; /*высота*/
+    background-color: aqua; /*цвет фона*/
+}
+.main-menu {
+    height: 40px;
+    background-color: antiquewhite;
+}
+section {
+    width: 75%; /*ширина (такое делать не надо)*/
+    background-color: #FFC0CB;
+}
+.sidebar-right {
+    width: 25%;
+    background-color: yellow;
+}
+footer {
+    height: 100px;
+    background-color: rgb(135, 0, 97);
+}
